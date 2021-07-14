@@ -1,0 +1,38 @@
+
+format = """
+$directory\
+$git_branch\
+$kubernetes
+ [➜](bold green) 
+"""
+# Use custom format
+success_symbol = "[➜](bold green)"
+
+# Wait 10 milliseconds for starship to check files under the current directory.
+scan_timeout = 10
+
+# Disable the newline at the start of the prompt
+add_newline = true
+
+[python]
+python_binary = "python3"
+
+[directory]
+format = "[ \n 📂: $path]($style)[$read_only]($read_only_style) "
+
+[kubernetes]
+format = "[ \n ❄️ [cxt](white): $context in [ns](white): $namespace](green) "
+disabled = false
+[kubernetes.context_aliases]
+
+[git_branch]
+truncation_length = 20
+truncation_symbol = ""
+symbol = "🌱"
+format="\n [$symbol: $branch]($style) "
+
+[gcloud]
+format = "[ \n $symbol: $project]($style) "
+
+[terraform]
+disabled = true
