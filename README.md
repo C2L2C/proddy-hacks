@@ -28,7 +28,7 @@ mkdir -p ~/.config && cp starship-config/starship.toml ~/.config/
     4. Current gcloud project
 
 
-### TO DO:
+## TO DO:
 
 Creating a script to automate this setup.
 Adding dotfiles for more tools:
