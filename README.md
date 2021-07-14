@@ -11,9 +11,9 @@ Currently the dotfile(s) are for:
 
 1. Follow the simple [installation.](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 2. Clone this repo.
-3. Run the following command:
+3. Run the following command from the location where you cloned the repo:
 ```zsh
-mkdir -p ~/.config && cp <REPO PATH>/starship.toml
+mkdir -p ~/.config && cp starship-config/starship.toml ~/.config/
 ```
 4. That's all !
 
