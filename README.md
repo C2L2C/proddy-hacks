@@ -9,7 +9,7 @@ Currently the dotfile(s) are for:
 
 ## Steps to setup:
 
-1. Follow the simple <a href="https://starship.rs/guide/#%F0%9F%9A%80-installation" target="_blank">installation</a>
+1. Follow the simple [installation]("https://starship.rs/guide/#%F0%9F%9A%80-installation"){:target="_blank" rel="noopener"}
 
 2. Clone this repo.
 3. Run the following command from the location where you cloned the repo:
